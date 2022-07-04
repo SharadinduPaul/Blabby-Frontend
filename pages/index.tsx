@@ -1,10 +1,7 @@
 import Head from '../node_modules/next/head';
 import styles from '../styles/Home.module.css';
 import React from 'react';
-/**
- * Home Page of the Application
- * @return {JSX.Element}
- */
+
 export default function Home(): JSX.Element {
   return (
     <div className={styles.container}>
